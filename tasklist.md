@@ -1,3 +1,3 @@
-Walk the dog
-Buy milk
-Do homework
+1 - Walk the dog
+2 - Buy milk
+3 - Do homework

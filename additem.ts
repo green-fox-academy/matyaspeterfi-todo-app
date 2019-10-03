@@ -11,7 +11,7 @@ export class AddItem{
   addItem(){
     if(args[2] === "-a"){
       if(args[3] != undefined){  
-        fs.appendFileSync(this._destination, `\n ${args[3]}`, "utf-8")
+        fs.appendFileSync(this._destination, `\n${args[3]}`, "utf-8")
       }else{console.log("Unable to add: no task provided")}
     }
   }
