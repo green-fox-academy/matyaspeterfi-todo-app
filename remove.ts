@@ -19,6 +19,7 @@ export class RemoveItem {
       this._readList.splice(this._lineNum, 1);
       this._targeContent = this._readList.join("\n");
       fs.writeFileSync(this._targetFile, this._targeContent, "utf-8");
+      console.log(`Removed item #${this._lineNum+1} from the list!`)
     }
   }
   constructor(targetFile) {
